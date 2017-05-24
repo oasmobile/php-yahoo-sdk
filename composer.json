@@ -1,0 +1,28 @@
+{
+    "name"             : "oasis/php-yahoo-sdk",
+    "description"      : "Yahoo! Social SDK - PHP5 library",
+    "type"             : "library",
+    "keywords"         : [
+        "yahoo",
+        "social",
+        "sdk",
+        "php"
+    ],
+    "homepage"         : "http://developer.yahoo.com/social/sdk/php/",
+    "license"          : "MIT",
+    "support"          : [
+        {
+            "forum": "http://developer.yahoo.com/forum/Y-OS-SDKs/"
+        }
+    ],
+    "require"          : {
+        "php"        : ">=5.6",
+        "ext-curl"   : "*",
+        "ext-openssl": "*"
+    },
+    "autoload"         : {
+        "classmap": [
+            "lib/"
+        ]
+    }
+}
